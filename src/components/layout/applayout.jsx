@@ -1,7 +1,7 @@
 import React from 'react'
 import {Outlet} from "react-router-dom";
 import Header from '../Header';
-import Profile from '../Profile';
+// import Profile from '../Profile';
 const Applayout = () => {
   return (
     <div >
@@ -9,7 +9,7 @@ const Applayout = () => {
   <main className='min-h-screen container'>
     <Header/>
       <Outlet/>
-      <Profile/>
+      {/* <Profile/> */}
 </main>
 <div className='p-10 text-center bg-purple-400 '>
   Find a Job❤️
